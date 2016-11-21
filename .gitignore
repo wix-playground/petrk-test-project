@@ -1,0 +1,8 @@
+generated
+node_modules
+.git
+.DS_Store
+dist
+target
+coverage
+velocity.private.data

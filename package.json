@@ -1,0 +1,32 @@
+{
+  "name": "ci-hooks-test",
+  "version": "1.0.0",
+  "description": "Test Ci Scripts",
+  "homepage": "",
+  "private": true,
+  "author": {
+    "name": "petrk",
+    "email": "petrk@wix.com",
+    "url": ""
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "test": "echo Disabled"
+  },
+  "wix": {
+    "entry": "./app.js"
+  },
+  "devDependencies": {
+    "wix-statics-parent": "latest"
+  },
+  "dependencies": {
+    "webpack": "^1.13.3"
+  },
+  "babel": {
+    "presets": [
+      "react",
+      "es2015",
+      "stage-0"
+    ]
+  }
+}
